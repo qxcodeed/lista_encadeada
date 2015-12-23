@@ -161,6 +161,10 @@ void slist::clear(){
     head->next = nullptr;
 }
 
+snode * slist::end(){
+    return nullptr;
+}
+
 
 bool slist::equals(slist *other){
     snode * one = this->head;

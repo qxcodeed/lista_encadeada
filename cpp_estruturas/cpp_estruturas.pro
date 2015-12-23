@@ -6,11 +6,13 @@ CONFIG -= qt
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    singlelist/slist.cpp \
-    dlist/dlist.cpp
+    listas/slist.cpp \
+    listas/dlist.cpp \
+    listas/rslist.cpp
 
 HEADERS += \
-    singlelist/slist.h \
-    singlelist/slist_testes.h \
-    dlist/dlist.h
+    listas/slist.h \
+    listas/dlist.h \
+    listas/rslist.h \
+    listas/snode.h
 
